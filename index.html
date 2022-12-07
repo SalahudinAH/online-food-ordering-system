@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viktig å gjøre nettsiden responsiv -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halal Kingdom</title>
+
+    <!-- Koble til CSS-filen -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Navbar-delen starter her -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" title="Logo">
+                    <img src="images/logo.png" alt="" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="meny text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Hjem</a>
+                    </li>
+                    <li>
+                        <a href="kategorier.html">Kategorier</a>
+                    </li>
+                    <li>
+                        <a href="meny.html">Meny</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar-delen slutter her -->
+
+    <!-- Seksjonen for mat-søk starter her -->
+    <div class="background">
+        <section class="mat-search text-center">
+            <div class="container">
+                <form action="mat-search.html" method="POST">
+                    <input type="search" name="search" placeholder="Søk for mat.." required>
+                    <input type="submit" name="submit" value="Søk" class="btn btn-primary">
+                </form>
+
+            </div>
+        </section>
+    </div>
+    <!-- Seksjonen for mat-søk slutter her -->
+
+    <!-- Kategorier-delen starter her -->
+    <section class="kategorier">
+        <div class="container">
+            <h2 class="text-center">Utforsk Mat</h2>
+
+            <a href="meny.html">
+            <div class="box-3 float-container">
+                <div class="box-shadow">
+                    <img src="images/pexels-satyam-verma-4449068_resized.jpg" alt="Samosa" class="img-responsive img-curve">
+                </div>
+
+                <h3 class="float-text text-white">Samosa</h3>
+            </div>
+            </a>
+
+            <a href="meny.html">
+            <div class="box-3 float-container">
+                <div class="box-shadow">
+                    <img src="images/pexels-alleksana-4224314_resized.jpg" alt="Biryani" class="img-responsive img-curve">
+                </div>
+
+                <h3 class="float-text text-white">Biryani</h3>
+            </div>
+            </a>
+
+            <a href="meny.html">
+            <div class="box-3 float-container">
+                <div class="box-shadow">
+                    <img src="images/pexels-dhiraj-jain-12737921_resized.jpg" alt="Kebab" class="img-responsive img-curve">
+                </div>
+                <h3 class="float-text text-white">Kebab</h3>
+            </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Kategorier-delen slutter her -->
+
+    <!-- Matmeny-delen starter her -->
+    <section class="mat-meny">
+        <div class="container">
+            <h2 class="text-center">Meny</h2>
+
+            <div class="mat-meny-box">
+                <div class="mat-meny-img">
+                    <img src="images/pexels-satyam-verma-4449068_menu.jpg" alt="Samosa" class="img-responsive img-curve">
+                </div>
+
+                <div class="mat-meny-desc">
+                    <h4>Samosa</h4>
+                    <p class="mat-pris">80kr</p>
+                    <p class="mat-beskrivelse">
+                        Frityrstekt bakeverk med velsmakende fyll, krydrede poteter, løk og erter.
+                    </p>
+                    <br>
+
+                    <a href="order.html" class="btn btn-primary">Bestill</a>
+                </div>
+            </div>
+
+            <div class="mat-meny-box">
+                <div class="mat-meny-img">
+                    <img src="images/pexels-alleksana-4224314_menu.jpg" alt="Biryani" class="img-responsive img-curve">
+                </div>
+
+                <div class="mat-meny-desc">
+                    <h4>Biryani</h4>
+                    <p class="mat-pris">120kr</p>
+                    <p class="mat-beskrivelse">
+                        Basmatiris av god kvalitet, hele krydder, krydderpulver, kylling og ghee.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Bestill</a>
+                </div>
+            </div>
+
+            <div class="mat-meny-box">
+                <div class="mat-meny-img">
+                    <img src="images/pexels-satyam-verma-9883028_menu.jpg" alt="OnionPakora" class="img-responsive img-curve">
+                </div>
+
+                <div class="mat-meny-desc">
+                    <h4>Onion Pakora</h4>
+                    <p class="mat-pris">140kr</p>
+                    <p class="mat-beskrivelse">
+                        Frityrstekt snack av smakfulle løkfritter laget med besan, krydder og urter.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Bestill</a>
+                </div>
+            </div>
+
+            <div class="mat-meny-box">
+                <div class="mat-meny-img">
+                    <img src="images/pexels-dhiraj-jain-12737921_menu.jpg" alt="Kebabrull" class="img-responsive img-curve">
+                </div>
+
+                <div class="mat-meny-desc">
+                    <h4>Kebabrull</h4>
+                    <p class="mat-pris">70kr</p>
+                    <p class="mat-beskrivelse">
+                        Isbergersalat, tomat, løk, mais gyroskjøtt og kebabsaus.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Bestill</a>
+                </div>
+            </div>
+
+            <div class="mat-meny-box">
+                <div class="mat-meny-img">
+                    <img src="images/pexels-rajdeepcraft-6416559_menu.jpg" alt="Shawarma" class="img-responsive img-curve">
+                </div>
+
+                <div class="mat-meny-desc">
+                    <h4>Shawarma</h4>
+                    <p class="mat-pris">90kr</p>
+                    <p class="mat-beskrivelse">
+                        Lammekjøtt, isbergersalat, tomat, løk og en spesiell dressing.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Bestill</a>
+                </div>
+            </div>
+
+            <div class="mat-meny-box">
+                <div class="mat-meny-img">
+                    <img src="images/pexels-pixabay-315755_menu.jpg" alt="Chicken Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="mat-meny-desc">
+                    <h4>Kylling Pizza</h4>
+                    <p class="mat-pris">140kr</p>
+                    <p class="mat-beskrivelse">
+                        Laget med italiensk saus, kylling og ferske sjampinjonger.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Bestill</a>
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+        <p class="text-center">
+            <a href="#">Se alle matvarer</a>
+        </p>
+    </section>
+    <!-- Matmeny-delen slutter her -->
+
+    <!-- footer-delen starter her -->
+    <section class="footer">
+        <div class="container text-center">
+            
+        </div>
+    </section>
+    <!-- footer-delen slutter her -->
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viktig å gjøre nettsiden responsiv -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halal Kingdom</title>
+
+    <!-- Koble til CSS-filen -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar-delen starter her -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" title="Logo">
+                    <img src="images/logo.png" alt="" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="meny text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Hjem</a>
+                    </li>
+                    <li>
+                        <a href="kategorier.html">Kategorier</a>
+                    </li>
+                    <li>
+                        <a href="meny.html">Meny</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar-delen slutter her -->
+
+    <!-- Seksjonen for mat-søk starter her -->
+    <div class="background-order">
+        <section class="mat-search">
+            <div class="container">
+                
+                <h2 class="text-center text-white">Fyll ut dette skjemaet for å bekrefte bestillingen din.</h2>
+    
+                <form action="#" class="bestilling">
+                    <fieldset> <!-- <fieldset>-taggen tegner en boks rundt de relaterte elementene. -->
+                        <legend>Utvalgt mat</legend> <!-- <legend>-taggen definerer overskrift for fieldset-elementet. -->
+    
+                        <div class="mat-meny-img">
+                            <img src="images/pexels-satyam-verma-4449068_menu.jpg" alt="Samosa" class="img-responsive img-curve">
+                        </div>
+        
+                        <div class="mat-meny-desc">
+                            <h3>Samosa</h3>
+                            <p class="mat-pris">80kr</p>
+    
+                            <div class="bestilling-label">Kvantitet</div>
+                            <input type="number" name="kvantitet" class="input-responsive" value="1" required>
+                            
+                        </div>
+    
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Leveringsdetaljer</legend>
+                        <div class="bestilling-label">Full Navn</div>
+                        <input type="text" name="full-navn" placeholder="E.g. Salahudin Ahmad" class="input-responsive" required>
+    
+                        <div class="bestilling-label">Telefonnummer</div>
+                        <input type="tel" name="kontakt" placeholder="E.g. 9484xxxx" class="input-responsive" required>
+    
+                        <div class="bestilling-label">E-post</div>
+                        <input type="email" name="e-post" placeholder="E.g. navn@gmail.com" class="input-responsive" required>
+    
+                        <div class="bestilling-label">Adresse</div>
+                        <textarea name="adresse" rows="10" placeholder="E.g. Gate, by, land" class="input-responsive" required></textarea>
+    
+                        <input type="submit" name="submit" value="Bekreft bestilling" class="btn btn-primary">
+                    </fieldset>
+    
+                </form>
+    
+            </div>
+        </section>
+    </div>
+    <!-- Seksjonen for mat-søk slutter her -->
+
+    <!-- footer-delen starter her -->
+    <section class="footer">
+        <div class="container text-center">
+            
+        </div>
+    </section>
+    <!-- footer-delen slutter her -->
+
+</body>
+</html>
