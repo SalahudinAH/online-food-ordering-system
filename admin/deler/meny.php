@@ -1,5 +1,9 @@
-<?php include('../konfig/konstanter.php'); ?>
+<?php 
 
+    include('../konfig/konstanter.php'); 
+    include('login-sjekk.php');
+
+?>
 
 <html>
     <head>
@@ -17,6 +21,7 @@
                     <li><a href="kategori.php">Kategori</a></li>
                     <li><a href="matmeny.php">Meny</a></li>
                     <li><a href="order.php">Bestillinger</a></li>
+                    <li><a href="logout.php">Logg ut</a></li>
                 </ul>
             </div>
         </div>

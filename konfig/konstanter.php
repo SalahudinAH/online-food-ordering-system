@@ -10,6 +10,6 @@
     define('DB_PASSORD', '');
     define('DB_NAVN', 'mat-bestilling');
 
-    $conn = mysqli_connect(LOCALHOST, DB_BRUKERNAVN, DB_PASSORD) or die(mysqli_error()); // Databasetilkobling
-    $db_select = mysqli_select_db($conn, DB_NAVN) or die(mysqli_error()); // Velge databasen
+    $conn = mysqli_connect(LOCALHOST, DB_BRUKERNAVN, DB_PASSORD) or die(mysqli_error($conn)); // Databasetilkobling
+    $db_select = mysqli_select_db($conn, DB_NAVN) or die(mysqli_error($conn)); // Velge databasen
 ?>
