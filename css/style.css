@@ -93,6 +93,14 @@ fieldset{ /* Tegner en boks rundt de relaterte elementene */
     border-radius: 5px;
 }
 
+.error{
+    padding: 2%;
+    color: red;
+}
+.suksess{
+    padding: 2%;
+    color: green;
+}
 
 /* CSS for navbarseksjonen */
 
@@ -129,7 +137,7 @@ fieldset{ /* Tegner en boks rundt de relaterte elementene */
     padding: 7% 0;
 }
 
-.mat-search input[type="search"]{
+.mat-search input[type="søk"]{
     width: 50%;
     padding: 1%;
     font-size: 1rem;
@@ -203,6 +211,110 @@ fieldset{ /* Tegner en boks rundt de relaterte elementene */
 }
 
 
+/* CSS for FAQ-delen */
+
+.faq {
+    margin-top: 20px;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+
+  
+/* CSS for kontakt.php */
+.kontakt {
+    padding: 4% 0;
+  }
+  
+  .innpakning {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .kontakt h2 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+    color: #2f3542;
+  }
+  
+  .kontakt-informasjon {
+    margin-bottom: 4%;
+  }
+  
+  .kontakt-informasjon h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    color: #2f3542;
+  }
+  
+  .kontakt-informasjon p {
+    margin-bottom: 1%;
+    color: #747d8c;
+  }
+  
+  .kontakt-skjema {
+    margin-top: 4%;
+  }
+  
+  .kontakt-skjema h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    color: #2f3542;
+  }
+  
+  .kontakt-skjema form {
+    margin-top: 2%;
+  }
+  
+  .kontakt-skjema label {
+    display: block;
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: #2f3542;
+  }
+  
+  .kontakt-skjema input,
+  .kontakt-skjema textarea {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f6fa;
+    color: #2f3542;
+  }
+  
+  .kontakt-skjema textarea {
+    resize: vertical;
+  }
+  
+  .kontakt-skjema button[type="submit"] {
+    padding: 2%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .kontakt-skjema button[type="submit"]:hover {
+    background-color: #ff4757;
+  }
+  
+
 
 /* CSS for mobilstørrelse eller mindre skjerm */
 
@@ -217,7 +329,7 @@ fieldset{ /* Tegner en boks rundt de relaterte elementene */
         text-align: center;
     }
 
-    .mat-search input[type="search"]{
+    .mat-search input[type="søk"]{
         width: 90%;
         padding: 2%;
         margin-bottom: 3%;
